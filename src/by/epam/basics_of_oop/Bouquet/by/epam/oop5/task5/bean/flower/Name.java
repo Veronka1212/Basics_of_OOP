@@ -7,15 +7,15 @@ public enum Name {
     CHAMOMILE("Ромашка"),
     CHRYSANTHEMUM("Хризантема"),
     LILY("Лилия"),
-    HYDRANGEA("Гортензия "),
-    PION("Пион  "),
-    TULIP("Тюльпан  "),
-    ORCHID("Орхидея "),
-    LILY_OF_THE_VALLEY("Ландыш "),
-    MIMOSA("Мимоза  ");
+    HYDRANGEA("Гортензия"),
+    PION("Пион"),
+    TULIP("Тюльпан"),
+    ORCHID("Орхидея"),
+    LILY_OF_THE_VALLEY("Ландыш"),
+    MIMOSA("Мимоза");
 
     Name(String flowerName) {
-        this.flowerName=flowerName;
+        this.flowerName = flowerName;
     }
 
     private String flowerName;
